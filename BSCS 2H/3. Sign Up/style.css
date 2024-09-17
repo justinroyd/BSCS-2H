@@ -18,8 +18,8 @@ body {
 .left {
   display: flex;
   flex-direction: column;
-  width: 50%;
   align-items: center;
+  width: 50%;
   background-color: whitesmoke;
   border-radius: 20px 0px 0px 20px;
 }
