@@ -40,7 +40,7 @@ body {
 }
 
 #submit {
-  padding: 12px 30px;
+  padding: 12px ;
   width: 50%;
   margin-top: 10px;
   background-color: black;
@@ -57,9 +57,7 @@ body {
 }
 
 .left a {
-  text-decoration: none;
   color: black;
-  margin-top: 20px;
 }
 
 .left a:hover {
