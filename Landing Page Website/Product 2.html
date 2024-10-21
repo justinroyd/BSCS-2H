@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Service.html">Services</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Our Products</h1>
+    </section>
+
+    <!------ Product-items ------->
+
+    <div class="container">
+      <div class="items">
+        <div class="name-product">
+          <h1>Lomi ng Lipa</h1>
+          <img src="img/Lomi ng Lipa.jpg" />
+          <div class="desc">
+            It is made with thick egg noodles, pork, and is known for its rich,
+            savory broth and hearty ingredients.
+          </div>
+        </div>
+      </div>
+      <div class="items">
+        <div class="name-product">
+          <h1>Lomi ng Tanauan</h1>
+          <img src="img/Lomi ng Tanauan.jpg" />
+          <div class="desc">
+            It is made with thick egg noodles, pork, chicaron and is known for
+            its rich, savory broth and hearty ingredients.
+          </div>
+        </div>
+      </div>
+      <div class="items">
+        <div class="name-product">
+          <h1>Lomi ng Lemery</h1>
+          <img src="img/Lomi ng Lemery.jpg" />
+          <div class="desc">
+            It is made with thick egg noodles, pork, chicaron, pork liver,
+            boiled egg, small kikiam and is known for its rich, savory broth and
+            hearty ingredients.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------Footer------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Our Website introduce simple products of Batangas city like Kapeng
+        barako, Lomi and Atchara this website will give you a few information
+        for <br />that products and as we beginner web developer we try our best
+        to give you a best quality of website and some interactive menu and
+        buttons.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"> by Group 2</i></p>
+    </section>
+
+    <!----- JavaScript for Toggle Menu ------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
