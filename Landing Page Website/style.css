@@ -52,6 +52,13 @@ nav img {
 .nav-links ul li:hover::after {
   width: 100%;
 }
+
+.nav-links ul li:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  left: 0px;
+}
+
 .text-box {
   width: 50%;
   color: #fff;
@@ -60,6 +67,22 @@ nav img {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.dropdown {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  left: 0px;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.dropdown li {
+  padding: 12px;
 }
 /* title */
 .text-box h1 {
