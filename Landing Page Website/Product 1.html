@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Service.html">Services</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Our Products</h1>
+    </section>
+
+    <!------ Product-items ------->
+
+    <div class="container">
+      <div class="items">
+        <div class="name-product">
+          <h1>Robusta</h1>
+          <img src="img/Robusta.jpg" />
+          <div class="desc">
+            It is made from the Coffea canephora plant which is known for its
+            strong and robust flavor. It is known for its bold and earthy taste,
+            with a smoky finish.
+          </div>
+        </div>
+      </div>
+      <div class="items">
+        <div class="name-product">
+          <h1>Arabica</h1>
+          <img src="img/Arabica.jpg" />
+          <div class="desc">
+            It is made from the Coffea arabica plant which is known for its
+            milder and sweeter flavor. It is known for its complex and nuanced
+            taste, with notes of chocolate and caramel.
+          </div>
+        </div>
+      </div>
+      <div class="items">
+        <div class="name-product">
+          <h1>Baraco</h1>
+          <img src="img/Baraco.jpg" />
+          <div class="desc">
+            It is a popular choice for those who prefer a strong coffee and is
+            often used for espresso and other strong coffee drinks. Kapeng
+            Barako is considered a specialty coffee in the Philippines and is a
+            popular export item.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------Footer------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Our Website introduce simple products of Batangas city like Kapeng
+        barako, Lomi and Atchara this website will give you a few information
+        for <br />that products and as we beginner web developer we try our best
+        to give you a best quality of website and some interactive menu and
+        buttons.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"> by</i></p>
+    </section>
+
+    <!----- JavaScript for Toggle Menu ------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
