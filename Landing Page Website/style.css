@@ -52,6 +52,21 @@ nav img {
 .nav-links ul li:hover::after {
   width: 100%;
 }
+.dropdown {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  left: 0px;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+.dropdown li {
+  padding: 12px;
+}
 
 .nav-links ul li:hover .dropdown {
   opacity: 1;
@@ -69,21 +84,7 @@ nav img {
   text-align: center;
 }
 
-.dropdown {
-  position: absolute;
-  width: 100%;
-  background-color: transparent;
-  color: white;
-  left: 0px;
-  top: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.5s;
-}
 
-.dropdown li {
-  padding: 12px;
-}
 /* title */
 .text-box h1 {
   font-size: 62px;
