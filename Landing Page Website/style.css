@@ -52,6 +52,7 @@ nav img {
 .nav-links ul li:hover::after {
   width: 100%;
 }
+/* dropdown menu */
 .dropdown {
   position: absolute;
   width: 100%;
@@ -73,7 +74,7 @@ nav img {
   visibility: visible;
   left: 0px;
 }
-
+/* text box */
 .text-box {
   width: 50%;
   color: #fff;
