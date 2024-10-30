@@ -38,7 +38,7 @@ nav img {
 .nav-links ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 12px;
 }
 .nav-links ul li::after {
   content: "";
@@ -60,6 +60,7 @@ nav img {
   left: 0px;
   top: 100%;
   opacity: 0;
+  font-size: 12px;
   visibility: hidden;
   transition: 0.5s;
 }
@@ -84,7 +85,6 @@ nav img {
   text-align: center;
 }
 
-
 /* title */
 .text-box h1 {
   font-size: 62px;
@@ -93,7 +93,6 @@ nav img {
   margin: 10px 0 40px;
   font-size: 16px;
   color: rgb(255, 255, 255);
-  font-weight: bold;
 }
 .hero-btn {
   display: inline-block;
@@ -108,8 +107,8 @@ nav img {
   font-weight: bold;
 }
 .hero-btn:hover {
-  border: 1px solid #f44336;
-  background: #f44336;
+  border: 1px solid brown;
+  background: brown;
   transition: 1s;
 }
 
@@ -468,6 +467,7 @@ h3 {
 .card p {
   color: #6c757d;
   text-align: center;
+  margin: auto;
 }
 
 .card:hover i,
