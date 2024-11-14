@@ -755,7 +755,7 @@ th:last-child {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
-
+/* Contact form Mobile version  */
 @media (max-width: 400px) {
   .contact {
     padding: 50px;
@@ -768,7 +768,7 @@ th:last-child {
   }
 }
 
-/* Nav Bar Mobile version in Progress */
+/* Nav Bar Mobile version in Progress
 @media (max-width: 400px) {
   .text-box h1 {
     font-size: 20px;
@@ -798,4 +798,4 @@ th:last-child {
   .nav-links ul {
     padding: 30px;
   }
-}
+} */
