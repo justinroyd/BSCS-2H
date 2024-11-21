@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form type and fields</title>
+</head>
+<body>
+    <!-- form method="get" is not secured -->
+    <form action="submitme.php" method="post">
+        <label for="username">User name:</label>
+        <input type="text" name="username" value="">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" value="">
+        <br>
+        <textarea rows="5" cols="20">More Content</textarea>
+        <br>
+        <!-- dropdown format -->
+        <select>
+            <option value="1">Select 1</option>
+            <option value="2">Select 2</option>
+            <option value="3">Select 3</option>
+        </select>
+        <br>
+        <!-- radio button cannot have a different names always have same name -->
+        <input type="radio" name="radiobutton" value="html">HTML
+        <input type="radio" name="radiobutton" value="css">CSS
+        <br>
+        <!-- checkbox -->
+        <input type="checkbox" name="checkbutton1" value="html">HTML
+        <input type="checkbox" name="checkbutton2" value="css">CSS <br>
+        <!-- number -->
+        HTML5 type1: <br>
+        <input name="one type" type="number" placeholder="5" max="55" min="5" value="5">
+        <br>
+        <!-- date -->
+        HTML5 type2: <br>
+        <input type="date" name="twotype" min="2015-07-07" tabindex="2">
+        <br>
+        <!-- color -->
+        HTML5 type3: <br>
+        <input name="threetype" type="color" tabindex="7">
+        <br>
+        <!-- email -->
+        HTML5 type4: <br>
+        <input type="email" name="fourtype">
+        <br>
+        <!-- range -->
+        HTML5 type5: <br>
+        <input type="range" name="fivetype" min="1" max="10">
+        <br>
+        <!-- datetime-local -->
+        HTML5 type6: <br>
+        <input type="datetime-local" name="sixtype">
+        <br>
+        <!-- month -->
+        HTML5 type7: <br>
+        <input type="month" name="seventype">
+        <br>
+        <!-- url -->
+        HTML5 type8: <br>
+        <input type="url" name="eighttype">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
