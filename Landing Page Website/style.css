@@ -582,8 +582,12 @@ td input {
 }
 
 td a {
-  color: brown;
+  color: black;
   font-size: 12px;
+}
+
+td a:hover {
+  color: brown;
 }
 
 td img {
