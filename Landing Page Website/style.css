@@ -172,6 +172,17 @@ nav .fa {
   display: none;
 }
 
+@media (max-width: 800px) {
+  .text-box p{
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .text-box h1{
+    max-width: 100%;
+    font-size: 24px;
+  }
+}
+
 /* product */
 .product {
   width: 80%;
@@ -671,6 +682,7 @@ th:last-child {
 /* Contact form Mobile version  */
 @media (max-width: 800px) {
   .contact {
+    display: inline;
     padding: 50px;
     margin: auto;
   }
@@ -679,5 +691,10 @@ th:last-child {
   }
   .container .contactInfo {
     margin-bottom: 40px;
+  }
+  .contactForm{
+    margin: 10px;
+    width: 50vh;
+    padding: 10px;
   }
 }
