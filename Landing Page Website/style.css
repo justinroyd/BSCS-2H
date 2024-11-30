@@ -80,7 +80,7 @@ nav img {
 }
 
 .dropdown-sidebar {
-  display: inline-block;
+  display: none;
 }
 
 .sidebar li {
