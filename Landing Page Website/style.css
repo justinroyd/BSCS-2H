@@ -79,10 +79,6 @@ nav img {
   justify-content: flex-start;
 }
 
-.dropdown-sidebar {
-  display: none;
-}
-
 .sidebar li {
   width: 100%;
 }
