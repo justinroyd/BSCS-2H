@@ -304,7 +304,7 @@ h3 {
 .testnimonials-col .fa {
   color: #f44336;
 }
-/* Mobile version */
+/*---- Mobile version ----*/
 @media (max-width: 800px) {
   .testnimonials-col img {
     margin-left: 0px;
@@ -577,10 +577,6 @@ th:last-child {
   align-items: center;
   margin-top: 150px;
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
 .container .contactInfo {
   width: 50%;
@@ -619,10 +615,6 @@ th:last-child {
   padding: 30px;
   background: #fff;
   border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
 }
 .contactForm h2 {
   font-size: 30px;
