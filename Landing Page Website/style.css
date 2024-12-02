@@ -362,6 +362,7 @@ h3 {
 .teams img {
   width: 200px;
   height: 200px;
+  border-radius: 14px;
 }
 
 .name {
