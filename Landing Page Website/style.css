@@ -312,19 +312,6 @@ h3 {
   }
 }
 
-/*-------- footer ------*/
-.footer {
-  width: 100%;
-  text-align: center;
-  padding: 30px 0;
-}
-
-.footer h4 {
-  margin-bottom: 25px;
-  margin-top: 20px;
-  font-weight: 600;
-}
-
 /*-------- about us page ------*/
 .sub-header {
   height: 50vh;
@@ -689,4 +676,17 @@ th:last-child {
     width: 50vh;
     padding: 10px;
   }
+}
+
+/*-------- footer ------*/
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
 }
