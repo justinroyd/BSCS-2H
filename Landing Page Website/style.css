@@ -16,11 +16,11 @@
   background-repeat: no-repeat;
 }
 
-.logo{
+.logo {
   display: flex;
 }
 
-.logo:hover{
+.logo:hover {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 100px;
 }
@@ -173,11 +173,11 @@ nav .fa {
 }
 
 @media (max-width: 800px) {
-  .text-box p{
+  .text-box p {
     max-width: 100%;
     font-size: 12px;
   }
-  .text-box h1{
+  .text-box h1 {
     max-width: 100%;
     font-size: 24px;
   }
@@ -212,7 +212,7 @@ p {
   justify-content: space-between;
   gap: 50px 50px;
 }
-.product-col {
+.products-col {
   flex-basis: 31%;
   background: #fff3f3;
   border-radius: 10px;
@@ -226,23 +226,23 @@ h3 {
   font-weight: 600;
   margin: 10px 0;
 }
-.product-col:hover {
+.products-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-.Product {
+.Products {
   width: 100%;
   margin: auto;
   text-align: center;
   padding-top: 60px;
 }
-.Product-col {
+.Products-col {
   flex-basis: 31%;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
 }
-.Product-col img {
+.Products-col img {
   width: 100%;
   height: 65%;
   border: 10px;
@@ -251,15 +251,15 @@ h3 {
   align-items: center;
   transition: 0.3s;
 }
-.Product-col p {
+.Products-col p {
   padding: 0;
 }
-.Product-col h3 {
+.Products-col h3 {
   margin-top: 16px;
   margin-bottom: 15px;
   text-align: left;
 }
-.Product-col img:hover {
+.Products-col img:hover {
   opacity: 0.7;
 }
 
@@ -428,6 +428,17 @@ h3 {
   .container {
     max-width: 100%;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 50vh;
   }
 }
 /* cart items */
@@ -630,9 +641,11 @@ th:last-child {
 /* Contact form Mobile version  */
 @media (max-width: 800px) {
   .contact {
-    display: inline;
-    padding: 50px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px 0px 200px;
   }
   .container-contact {
     flex-direction: column;
@@ -640,7 +653,7 @@ th:last-child {
   .container-contact .contactInfo {
     margin-bottom: 40px;
   }
-  .contactForm{
+  .contactForm {
     margin: 10px;
     width: 50vh;
     padding: 10px;
