@@ -558,9 +558,10 @@ th:last-child {
   color: black;
 }
 .container-contact {
-  width: 80%;
+  width: 70%;
   display: flex;
   justify-content: center;
+  background-color: whitesmoke;
   align-items: center;
   margin-top: 150px;
   border-radius: 20px;
