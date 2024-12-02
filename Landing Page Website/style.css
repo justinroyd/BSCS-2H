@@ -656,7 +656,7 @@ th:last-child {
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span {
-  color: #e92e63;
+  color: brown;
   font-size: 12px;
   transform: translateY(-20px);
 }
