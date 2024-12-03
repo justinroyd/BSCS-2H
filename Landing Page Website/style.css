@@ -426,6 +426,7 @@ h3 {
 
 @media (max-width: 800px) {
   .container {
+    display: flex;
     max-width: 100%;
     flex-direction: column;
     text-align: center;
