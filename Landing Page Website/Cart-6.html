@@ -3,13 +3,13 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <section class="sub-header">
       <!-- Navbar -->
       <nav>
-        <a href="index.html" class="logo"><img src="img/logo.png" /></a>
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="logo" /></a>
         <div class="nav-links">
           <ul class="sidebar">
             <li id="menu-button" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
@@ -18,7 +18,7 @@
             <li>
               <a href="Product.html">Products</a>
             </li>
-            <li><a href="Contact Us.html">Contact</a></li>
+            <li><a href="Contact-Us.html">Contact</a></li>
           </ul>
           <ul>
             <li id="hideOnMobile"><a href="index.html">Home</a></li>
@@ -34,7 +34,7 @@
                 <li><a href="Cart-6.html">Panutsa</a></li>
               </ul>
             </li>
-            <li id="hideOnMobile"><a href="Contact Us.html">Contact</a></li>
+            <li id="hideOnMobile"><a href="Contact-Us.html">Contact</a></li>
             <li id="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
           </ul>
         </div>
@@ -43,60 +43,61 @@
     </section>
 
     <!------ Cart ------->
-
     <div class="small-container cart-page">
       <table>
         <tr>
           <th>Product</th>
-          <th>Quatity</th>
+          <th>Quantity</th>
           <th>Price</th>
         </tr>
-        <tr>
+        <tr data-product="Panutsa With Peanut" data-price="30">
           <td>
             <div class="cart-info">
-              <img src="img/panutsa-peanut.jpg" alt="" />
+              <img src="img/panutsa-peanut.jpg" alt="Atchara-IMG" />
               <div>
                 <p>Panutsa With Peanut</p>
                 <small>Price: 30.00php</small>
-                <br />
               </div>
             </div>
           </td>
-          <td><input type="number" value="1" /></td>
+          <td><input type="number" value="1" min="1" /></td>
           <td>30.00php</td>
         </tr>
-        <tr>
+        <tr data-product="Panutsa With Chocolate" data-price="35">
           <td>
             <div class="cart-info">
-              <img src="img/Panutsa-taal.jpg" alt="" />
+              <img src="img/Panutsa-taal.jpg" alt="Atchara-IMG" />
               <div>
                 <p>Panutsa With Chocolate</p>
                 <small>Price: 35.00php</small>
-                <br />
               </div>
             </div>
           </td>
-          <td><input type="number" value="1" /></td>
+          <td><input type="number" value="1" min="1" /></td>
           <td>35.00php</td>
         </tr>
-        <tr>
+        <tr data-product="Classic Panutsa" data-price="35">
           <td>
             <div class="cart-info">
-              <img src="img/Panutsa-0.jpg" alt="" />
+              <img src="img/Panutsa-0.jpg" alt="Atchara-IMG" />
               <div>
                 <p>Classic Panutsa</p>
                 <small>Price: 35.00php</small>
-                <br />
               </div>
             </div>
           </td>
-          <td><input type="number" value="1" /></td>
+          <td><input type="number" value="1" min="1" /></td>
           <td>35.00php</td>
         </tr>
       </table>
-      <br />
       <div class="add-cart">
-        <button>Add Cart</button>
+        <button id="addCartBtn">Add Cart</button>
+        <button id="clearCartBtn">Clear Cart</button>
+      </div>
+      <div id="cart-summary">
+        <h3>Cart Summary</h3>
+        <ul id="cartItems"></ul>
+        <p><strong>Total: </strong><span id="totalPrice">0.00php</span></p>
       </div>
     </div>
 
@@ -113,16 +114,9 @@
       <p>2024</p>
     </section>
 
-    <!----- JavaScript for Toggle Menu ------>
-    <script>
-      function showSidebar(){
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'flex'
-      }
-      function hideSidebar(){
-        const sidebar = document.querySelector('.sidebar')
-        sidebar.style.display = 'none'
-      }
-    </script>
+    <!-- JavaScript for sidebar -->
+    <script src="js/sidebar.js"></script>
+    <!-- JavaScript for addcart -->
+    <script src="js/addcart.js"></script>
   </body>
 </html>

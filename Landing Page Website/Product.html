@@ -3,13 +3,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
     <section class="sub-header">
       <!-- Navbar -->
       <nav>
-        <a href="index.html" class="logo"><img src="img/logo.png" /></a>
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="logo" /></a>
         <div class="nav-links">
           <ul class="sidebar">
             <li id="menu-button" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
@@ -18,7 +18,7 @@
             <li>
               <a href="Product.html">Products</a>
             </li>
-            <li><a href="Contact Us.html">Contact</a></li>
+            <li><a href="Contact-Us.html">Contact</a></li>
           </ul>
           <ul>
             <li id="hideOnMobile"><a href="index.html">Home</a></li>
@@ -34,7 +34,7 @@
                 <li><a href="Cart-6.html">Panutsa</a></li>
               </ul>
             </li>
-            <li id="hideOnMobile"><a href="Contact Us.html">Contact</a></li>
+            <li id="hideOnMobile"><a href="Contact-Us.html">Contact</a></li>
             <li id="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
           </ul>
         </div>
@@ -44,40 +44,41 @@
 
 <!------ Product ------->
 <section class="Products">
+  <section class="best-foods">
     <h1>Best Foods in Batangas</h1>
-        <div class="row">
-            <div class="Products-col">
-                <a href="Product-1.html"><img src="img/agri.jpg"></img></a>
-                <h3>Kapeng Barako</h3>
-                <p>Kapeng Barako is a type of coffee grown in the Philippines, known for its strong and bold flavor.</p>
-            </div>
-            <div class="Products-col">
-                <a href="Product-2.html"><img src="img/Lomi1.jpg"></img></a>
-                <h3>Lomi</h3>
-                <p>Batangas Lomi is a type of Filipino noodle soup dish originating from the Batangas province in the Philippines.</p>
-            </div>
-            <div class="Products-col">
-                <a href="Product-3.html"><img src="img/Atcharang.jpg"></img></a>
-                <h3>Atcharang</h3>
-                <p>Atcharang Batangas is a Filipino dish that consists of pickled vegetables, usually carrots, green papaya, and ginger, mixed with grated coconut, shrimp paste, and spices.</p>
-            </div>
-            <div class="Products-col">
-                <a href="Product-4.html"><img src="img/honey-header.jpg"></img></a>
-                <h3>Honey</h3>
-                <p>Homemade honey is a sweet, amber-colored liquid made by bees using nectar from flowers. It is made by collecting nectar from flowers, which is then brought back to the bee hive and processed by the bees.</p>
-            </div>
-            <div class="Products-col">
-                <a href="Product-5.html"><img src="img/balisong-0.jpg"></img></a>
-                <h3>Balisong</h3>
-                <p>A balisong, also known as a butterfly knife, is a type of folding knife with two handles that rotate around the tang of the blade. The blade is typically hidden between the handles when the knife is closed, and can be quickly deployed by flipping the handles open. Balisongs originated in the Philippines and were traditionally used for everyday tasks such as cutting food and opening cans. </p>
-            </div>
-            <div class="Products-col">
-                <a href="Product-6.html"><img src="img/Panutsa-0.jpg"></img></a>
-                <h3>Panutsa</h3>
-                <p>Panutsa is a traditional Filipino sweet made from sugar, glutinous rice and peanuts. It is a sticky, caramelized candy that is often cut into small squares and wrapped in banana leaves or cellophane. The peanuts are first roasted then ground into a paste and mixed with sugar syrup and glutinous rice flour. </p>
-            </div>
-        </div>
-</section>
+    <div class="grid-container">
+      <div class="product-item">
+        <a href="Product-1.html"><img src="img/agri.jpg" alt="Kapeng Barako"></a>
+        <h3>Kapeng Barako</h3>
+        <p>Kapeng Barako is a type of coffee grown in the Philippines, known for its strong and bold flavor.</p>
+      </div>
+      <div class="product-item">
+        <a href="Product-2.html"><img src="img/Lomi1.jpg" alt="Lomi"></a>
+        <h3>Lomi</h3>
+        <p>Batangas Lomi is a type of Filipino noodle soup dish originating from the Batangas province in the Philippines.</p>
+      </div>
+      <div class="product-item">
+        <a href="Product-3.html"><img src="img/Atcharang.jpg" alt="Atcharang"></a>
+        <h3>Atcharang</h3>
+        <p>Atcharang Batangas is a Filipino dish that consists of pickled vegetables mixed with spices.</p>
+      </div>
+      <div class="product-item">
+        <a href="Product-4.html"><img src="img/honey-header.jpg" alt="Honey"></a>
+        <h3>Honey</h3>
+        <p>Homemade honey is a sweet, amber-colored liquid made by bees using nectar from flowers.</p>
+      </div>
+      <div class="product-item">
+        <a href="Product-5.html"><img src="img/balisong-0.jpg" alt="Balisong"></a>
+        <h3>Balisong</h3>
+        <p>A balisong, or butterfly knife, is a type of folding knife with rotating handles.</p>
+      </div>
+      <div class="product-item">
+        <a href="Product-6.html"><img src="img/Panutsa-0.jpg" alt="Panutsa"></a>
+        <h3>Panutsa</h3>
+        <p>Panutsa is a traditional Filipino sweet made from sugar, glutinous rice, and peanuts.</p>
+      </div>
+    </div>
+  </section>
 
 <!------Footer------->
 <section class="footer">
@@ -86,17 +87,7 @@
     <p>2024</p>
 </section>
 
-<!----- JavaScript for Toggle Menu ------>
-<script>
-    function showSidebar(){
-      const sidebar = document.querySelector('.sidebar')
-      sidebar.style.display = 'flex'
-    }
-    function hideSidebar(){
-      const sidebar = document.querySelector('.sidebar')
-      sidebar.style.display = 'none'
-    }
-  </script>
-
+<!-- JavaScript for sidebar -->
+<script src="js/sidebar.js"></script>
 </body>
 </html>
